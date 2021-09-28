@@ -1,5 +1,9 @@
-body{
-    background-color:#2C2C90;
+div {
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
 }
 h1 {
     font-size: 60px;
