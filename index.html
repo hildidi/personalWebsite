@@ -1,17 +1,50 @@
 <!DOCTYPE html>
 <html lang = "en">
-<head>
+<header>
     <link rel="stylesheet" href="style.css"/>
     <title>My Personal Website</title>
-</head>
+</header>
+
 <body>
-    <script src="script.js"></script>
-    <h1>Hilda Diana Cárdenas</h1>
-    <h2>About Me</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac tempus augue. Suspendisse potenti. Praesent risus velit, faucibus at tincidunt vitae, posuere ac metus. Praesent ullamcorper dui leo, vitae scelerisque enim pretium vitae. Donec eleifend id ligula non malesuada. Nullam sollicitudin rhoncus nunc, non semper lectus egestas a. Nullam volutpat euismod arcu et interdum. Phasellus a metus dolor.
-    <p></p>Nunc mattis lorem quis urna iaculis rutrum. Praesent semper, enim ac varius sodales, odio risus pellentesque quam, et placerat velit justo at purus. Fusce id dictum nibh. In malesuada, neque at mollis dictum, turpis felis interdum dolor, hendrerit venenatis nunc mi in velit. Fusce non metus erat. Etiam ornare mi in lorem sollicitudin, a lacinia arcu faucibus. Morbi sed ultrices libero. Donec convallis, lectus vel fringilla scelerisque, enim ipsum aliquam dui, vehicula aliquet lorem mauris nec mauris. Aliquam id turpis eros. Fusce tincidunt erat ac quam ultricies semper. Proin porttitor libero at libero porta dignissim.</p>
-    <h2>Contact</h2>
-    <p></p>Email: <a href="mailto:hcardens@gmail.com">Hilda Diana</a></p>
-    <p id="email"></p>
-</body>
+    <div class="heading-wrapper">
+        <div class = "brand-box">
+        <h1>Hilda Diana Cárdenas</h1>
+        </div>
+    </div>     
+
+    <div class="image-wrapper">
+    <img class = "myimage" src="images/DOT 210929 Hilda Cardenas.jpg" alt="Profile image of Hilda Diana, a Latinx, Mestiza woman with black medium length hair wearing a bright yellow top and smiling at the camera." width = "350px" height = "350px">    
+    </div>
+
+    <div class="content-wrapper">
+    <div type="button" class="collapsible"> <h2> About </h2></div>
+        <div class="content">
+            <p>Digital Accessibility advocate and former Mobility Coordinator for the New York City Department of Transportation.</p> 
+            <p> Hilda Diana's interest in digital accessibility began while working for the City, where she experienced first-hand the barriers that prevent a vast segment of the population, including Black, Indigenous, Persons of Color (BIPOC) with disabilities from fully participating in decision-making that affects their livelihood; whether that is navigating public spaces or accessing digital information. Through software engineering, Diana seeks to incorporate the experiences and needs of underserved populations to contribute toward achieving disability and social justice in public spaces and the digital world.</p> 
+            <p> In her free time Hilda Diana finds joy in cooking, and recovering and reupholstering furniture! Digital Accessibility advocate and former Mobility Coordinator for the New York City Department of Transportation. Hilda Diana is committed is to improve inclusion of historically excluded populations and ensure their participation in society with the ultimate goal of achieving social justice. </p></div>
+    
+    <div type="button" class="collapsible"> <h2>  PDF Remediation </h2></div>
+        <div class="content">
+            <p>Hilda Diana works with most document formarts and remediates them for accessibility, including: <br> 
+                <ul>
+                    <li> PDF Documents </li> 
+                    <li> Microsoft Office documents: Word and PowerPoint</li> 
+                </ul>
+            <p>Provide your documents in their original format to ensure the fastest and most accurate document remediation.</p>
+        </div>     
+        </div>
+
+    <footer class = "footer">
+        <h2>Contact</h2>
+            <div class = "wrapper-link">
+            <div class="social-icons">
+                    <a href="https://twitter.com/hildeeds" target="_blank" rel="noreferrer noopener" aria-label="Hilda Diana on Twitter (opens in a new tab)"><img class="footer-image" src="images/twitter icon.png" alt="Twitter icon of a bird in motion">Twitter</a>
+                    <a href="https://www.linkedin.com/in/hdcardenas" aria-label="Hilda Diana on LinkedIn (opens in a new tab)" target="_blank" rel="noopener noreferrer"><img class="footer-image" src="images/linkedin icon.png" alt="LinkedIn icon of a black background with white lowercase word in in the center ">LinkedIn</a>
+                    <a href="mailto:hcardens@gmail.com" id = "email" target="_blank" rel="noreferrer noopener" aria-label="Hilda Diana on Email (opens in a compose email window)"><img class="footer-image" src="images/email icon.dms" alt="Email icon of a black and white envelope">Email</a>
+                </div>                
+                </footer>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
 </html>
