@@ -1,22 +1,26 @@
 html,
 .body {
     background:hsl(310, 17%, 93%);
-    margin: 25px;
+    margin: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif
 }
 .heading-wrapper { 
     background-position: center;
     padding: 5px;
+    background-color: whitesmoke;
+    
 }
 div.brand-box h1 {
     color: black;
-    text-align: center;  
+    text-align: center;
+    border: 1px; 
 }
 .image-wrapper > .myimage {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
+    margin-bottom: 6px;
+    margin-top: 10px;
     object-fit: cover;
     border-radius:50%;
     width: 300px;
@@ -44,12 +48,15 @@ div.brand-box h1 {
     height: 60px;
     text-align: center;
     margin: 10px;  
+    
 }
 .active, .collapsible:hover {
     color: black;
     transition: color 0.5s;
     padding-right: 10px;
     text-decoration: underline;
+    color: rgb(75, 71, 71);
+    outline: 0;
 }
 .content {
     margin: 15px;
@@ -91,6 +98,5 @@ div.brand-box h1 {
 }
 .social-icons a:hover{
     color: gray;
-    border-bottom: 1px solid transparent black; 
-    
+    border-bottom: 1px solid transparent black;     
 }
